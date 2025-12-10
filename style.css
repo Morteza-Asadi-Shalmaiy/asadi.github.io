@@ -256,9 +256,12 @@ section {
 
 .about-stats {
     display: flex;
-    gap: 60px;
-    margin-top: 40px;
-    flex-wrap: wrap;
+    justify-content: space-between; /* Even spacing */
+    align-items: center; /* Vertical alignment */
+    width: 100%;
+
+    margin: 40px auto 0; /* Center the container */
+    gap: 20px; /* Minimum gap between items */
 }
 
 .stat {
